@@ -31,7 +31,8 @@ func main() {
 
 	// callSayHelloServerStream(client, names)
 
-	callSayHelloClientStreaming(client, names)
+	// callSayHelloClientStreaming(client, names)
+	callSayHelloBidirectionalStream(client, names)
 
 	defer conn.Close()
 }
