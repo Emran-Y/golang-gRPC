@@ -29,7 +29,9 @@ func main() {
 		},
 	}
 
-	callSayHelloServerStream(client, names)
+	// callSayHelloServerStream(client, names)
+
+	callSayHelloClientStreaming(client, names)
 
 	defer conn.Close()
 }
